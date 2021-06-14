@@ -71,7 +71,7 @@ We eventually determined that the code operates as follows:
 * YOLO sometimmes misidentified vehicles and pedestrians, and had trouble dealing consistently with stationary vehicles parked at the curb.
 * Our initial hope to train the machine learning model on failure-to-yield events quickly appeared beyond the timeframe and scope of this project. The YOLO model was already trained to detect objects, but failure-to-yield is a much more complicated phenomenon than identifying a common object in a video frame. With more time, we could define failure-to-yield events as follows: any frame in which a pedestrian is located on the curb while a vehicle is moving on the street (over a specified number of frames or time period). We could then set a count of how many frames elapse between the pedestrian's appearance on the curb and their crossing of a centerline in the street. Dividing this count by frames per second would yield the length of pedestrian wait to cross the intersection. This definition is imperfect, but by only including situations where the pedestrian eventually crosses the centerline, we would be able to exclude many irrelevant data points, such as a person waiting at the bus stop or walking north-south along Motor but not crossing.
 
-### A proof of concept for this approach, including additional commentary on issues, is available in *notebook 2*
+### A proof of concept for this approach, including additional commentary on issues, is available in [notebook 2](https://github.com/edasmalchi/up229-final-analysis/blob/main/notebooks/2_all_videos.ipynb)
 
 
 
