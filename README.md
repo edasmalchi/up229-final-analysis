@@ -45,7 +45,7 @@ After reading through several Github repositories and the documentation of vario
 
 We ultimately settled on a similar YOLOv3 deepsort model that offered improved performance, from [this repository](https://github.com/theAIGuysCode/yolov3_deepsort). Additionally, we lightly [modified](https://github.com/edasmalchi/up229-final-analysis/blob/main/files_for_colab/object_tracker2.py) some of that code to work properly on Colab as well as output a csv of tracked objects in addition to the processed video.
 
-### All Colab files, including processed videos, are available [here](https://drive.google.com/drive/folders/1raq9pOJ4LrKlo3xkqQXnmmYG1sOPfnk3?usp=sharing).
+### All Colab files, including processed videos, are available [here](https://drive.google.com/drive/folders/1raq9pOJ4LrKlo3xkqQXnmmYG1sOPfnk3?usp=sharing). Most relevantly, processed videos and tracking data are [here](https://drive.google.com/drive/u/0/folders/123rKF7uy2fxHq-1N7pI2Bjix-dx6Ine3)
 
 
 ## Video Analysis
